@@ -1,0 +1,36 @@
+{
+  "name": "calculator-pro-frontend",
+  "version": "1.0.0",
+  "description": "Calculator Pro - Frontend React App",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format.fix": "prettier --write .",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.2",
+    "axios": "^1.13.1",
+    "lucide-react": "^0.539.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.6.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^4.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.1.2"
+  }
+}
