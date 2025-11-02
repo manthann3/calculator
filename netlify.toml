@@ -1,7 +1,7 @@
 [build]
   base = "frontend"
   command = "npm run build"
-  publish = "frontend/dist"
+  publish = "dist"
 
 [build.environment]
-VITE_API_URL = https://calculator-7to7.onrender.com
+  VITE_API_URL = "https://calculator-7to7.onrender.com"
