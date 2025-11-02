@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const auditSchema = new mongoose.Schema(
   {
@@ -18,11 +18,12 @@ const auditSchema = new mongoose.Schema(
       type: String,
       required: true,
       enum: [
-        "DIGIT_PRESSED",
-        "DECIMAL_PRESSED",
-        "OPERATION_SELECTED",
-        "EQUALS_PRESSED",
-        "CLEAR_PRESSED",
+        'DIGIT_PRESSED',
+        'DECIMAL_PRESSED',
+        'OPERATION_SELECTED',
+        'EQUALS_PRESSED',
+        'CLEAR_PRESSED',
+        'NUMBER_ADDED',
       ],
     },
     value: {
@@ -32,12 +33,12 @@ const auditSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
-    collection: "audit_logs",
+    collection: 'audit_logs',
   }
 );
 
 auditSchema.index({ timestamp: -1, createdAt: -1 });
 
-const Audit = mongoose.model("Audit", auditSchema);
+const Audit = mongoose.model('Audit', auditSchema);
 
 export default Audit;
