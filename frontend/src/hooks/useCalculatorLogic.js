@@ -20,14 +20,14 @@ export function useCalculatorLogic() {
   
   const handleOperation = (op) => {
     const currentNumber = store.getState().calculator.display;
-    logAction('NUMBER_ADDED', currentNumber);
+    logAction('NUMBER_ENTERED', currentNumber);
     dispatch(setOperation(op));
     logAction('OPERATION_SELECTED', op);
   };
 
   const handleEquals = () => {
     const currentNumber = store.getState().calculator.display;
-    logAction('NUMBER_ADDED', currentNumber);
+    logAction('NUMBER_ENTERED', currentNumber);
     dispatch(calculate());
     const result = store.getState().calculator.display;
     logAction('EQUALS_PRESSED', result);

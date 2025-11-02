@@ -23,7 +23,7 @@ const auditSchema = new mongoose.Schema(
         'OPERATION_SELECTED',
         'EQUALS_PRESSED',
         'CLEAR_PRESSED',
-        'NUMBER_ADDED',
+        'NUMBER_ENTERED',
       ],
     },
     value: {
