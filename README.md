@@ -2,6 +2,10 @@
 A full-stack calculator built using **React** and **Node.js**, designed to perform basic arithmetic operations with a modern, responsive interface.  
 It demonstrates clean code structure, frontend-backend integration, and deploy-ready architecture.
 
+## Live Demo
+👉 **[calculator-with-audit-logger.netlify.app](https://calculator-with-audit-logger.netlify.app/)**
+
+
 ---
 
 ## Features
