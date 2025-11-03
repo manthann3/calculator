@@ -34,10 +34,10 @@ It demonstrates clean code structure, frontend-backend integration, and deploy-r
   cd ../frontend && npm install
 
 ### 3. Run the project
- Start backend
+ **Start backend:** 
   cd backend
   npm run dev
   
- Start frontend
+ **Start frontend:** 
   cd ../frontend
   npm run dev
